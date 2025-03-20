@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form</title>
+  </head>
+
+  <body>
+    <h2>Please fill this form to continue</h2>
+
+    <form>
+      <!-- Name -->
+      <label for="name">Name:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter Name"
+        required
+      /><br /><br />
+
+      <!-- Email -->
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter Email"
+        required
+      /><br /><br />
+
+      <!-- Password -->
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter Password"
+        required
+      /><br /><br />
+
+      <!-- Age -->
+      <label for="age">Age:</label>
+      <input
+        type="number"
+        id="age"
+        name="age"
+        placeholder="Enter Age"
+      /><br /><br />
+
+      <!-- Date of Birth -->
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" /><br /><br />
+
+      <!-- Gender -->
+      <p>Gender:</p>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label>
+
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label>
+
+      <input type="radio" id="other" name="gender" value="other" />
+      <label for="other">Other</label><br /><br />
+
+      <!-- Newsletter -->
+      <input type="checkbox" id="subscribe" name="subscribe" value="yes" />
+      <label for="subscribe">Subscribe to newsletter</label><br /><br />
+
+      <!-- Country -->
+      <label for="country">Country:</label>
+      <select id="country" name="country">
+        <option value="india">India</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+        <option value="canada">Canada</option></select
+      ><br /><br />
+
+      <!-- Message -->
+      <label for="message">Message:</label><br />
+      <textarea
+        id="message"
+        name="message"
+        rows="4"
+        cols="50"
+        placeholder="Write message here"
+      ></textarea
+      ><br /><br />
+
+      <!-- File Upload -->
+      <label for="file">Upload File:</label>
+      <input type="file" id="file" name="file" /><br /><br />
+
+      <!-- Range Input -->
+      <label for="rating">Rate Us:</label>
+      <input
+        type="range"
+        id="rating"
+        name="rating"
+        min="1"
+        max="5"
+      /><br /><br />
+
+      <!-- Favorite Color -->
+      <label for="color">Choose your favorite color:</label>
+      <input type="color" id="color" name="color" /><br /><br />
+
+      <!-- Hidden Input -->
+      <input type="hidden" name="userid" value="12345" />
+
+      <!-- Submit Button -->
+      <input type="submit" value="Submit" />
+      <!-- Reset Button -->
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>

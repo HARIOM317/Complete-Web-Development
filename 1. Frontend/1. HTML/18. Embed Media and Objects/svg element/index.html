@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SVG Image Example</title>
+  </head>
+  <body>
+    <h2>Creating SVG Images</h2>
+
+    <!-- First SVG Graphic -->
+    <svg width="400" height="200">
+      <!-- A light blue rectangle with a navy stroke -->
+      <rect
+        x="10"
+        y="10"
+        width="380"
+        height="180"
+        fill="lightblue"
+        stroke="navy"
+        stroke-width="2"
+      />
+
+      <!-- An orange circle with a dark red stroke -->
+      <circle
+        cx="200"
+        cy="100"
+        r="50"
+        fill="orange"
+        stroke="darkred"
+        stroke-width="3"
+      />
+
+      <!-- Text centered in the SVG -->
+      <text
+        x="200"
+        y="115"
+        font-family="Verdana"
+        font-size="20"
+        fill="black"
+        text-anchor="middle"
+      >
+        Hello, SVG!
+      </text>
+    </svg>
+
+    <!-- Second SVG Graphic -->
+    <svg width="300" height="200">
+      <polygon
+        points="100,10 40,198 190,78 10,78 160,198"
+        style="fill: lime; stroke: purple; stroke-width: 5; fill-rule: evenodd"
+      />
+    </svg>
+  </body>
+</html>

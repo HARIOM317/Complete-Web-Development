@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clickable Image Map Example</title>
+  </head>
+  <body>
+    <h2>Clickable Image Map with SVG Graphic</h2>
+
+    <div>
+      <img
+        src="https://media.geeksforgeeks.org/wp-content/uploads/20190227165729/area11.png"
+        alt=""
+        width="300"
+        height="119"
+        class="aligncenter size-medium wp-image-910965"
+        usemap="#shapemap"
+      />
+
+      <map name="shapemap">
+        <!-- area tag contained image. -->
+        <area
+          shape="poly"
+          coords="59,31,28,83,91,83"
+          href="https://media.geeksforgeeks.org/wp-content/uploads/20190227165802/area2.png"
+          alt="Triangle"
+        />
+
+        <area
+          shape="circle"
+          coords="155,56,26"
+          href="https://media.geeksforgeeks.org/wp-content/uploads/20190227165934/area3.png"
+          alt="Circle"
+        />
+
+        <area
+          shape="rect"
+          coords="224,30,276,82"
+          href="https://media.geeksforgeeks.org/wp-content/uploads/20190227170021/area4.png"
+          alt="Square"
+        />
+      </map>
+    </div>
+
+    <h2>Clickable Animal Image Map</h2>
+    <div>
+      <img
+        src="https://img.freepik.com/premium-vector/set-three-african-animals-with-tropical-forest-background_29190-147.jpg"
+        alt="African Animals"
+        usemap="#animalmap"
+        width="600"
+        height="400"
+      />
+
+      <!-- Define the image map -->
+      <map name="animalmap">
+        <!-- Approximate area for the Giraffe (left side) -->
+        <area
+          shape="rect"
+          coords="20,50,180,350"
+          href="https://cdn.britannica.com/55/75855-050-3D52AB80/giraffe-Kenya.jpg"
+          alt="Giraffe"
+          title="Giraffe"
+        />
+
+        <!-- Approximate area for the Lion (center) -->
+        <area
+          shape="rect"
+          coords="200,70,400,330"
+          href="https://cdn.thewire.in/wp-content/uploads/2023/09/07154537/Lion_pose_6649531395.jpg"
+          alt="Lion"
+          title="Lion"
+        />
+
+        <!-- Approximate area for the Elephant (right side) -->
+        <area
+          shape="rect"
+          coords="420,50,580,350"
+          href="https://images.unsplash.com/photo-1581852017103-68ac65514cf7?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZWxlcGhhbnR8ZW58MHx8MHx8fDA%3D"
+          alt="Elephant"
+          title="Elephant"
+        />
+      </map>
+    </div>
+  </body>
+</html>

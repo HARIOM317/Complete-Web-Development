@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkbox, dropdown and radio buttons</title>
+  </head>
+  <body>
+    <form action="/server">
+      <!-- Checkbox -->
+      <div>
+        <h2>Choose options as your preference</h2>
+
+        <div>
+          <input type="checkbox" id="age" name="age" value="adult" />
+          <label for="age">I am 18+</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="hobby" name="hobby" value="Like Music" />
+          <label for="hobby">I love music 🎵 </label>
+        </div>
+
+        <div>
+          <input
+            type="checkbox"
+            id="profession"
+            name="profession"
+            value="Student"
+            checked
+          />
+          <label for="profession">I am a student</label>
+        </div>
+      </div>
+
+      <!-- Radio Buttons -->
+      <div>
+        <h2>What best describes you?</h2>
+
+        <div>
+          <input type="radio" id="male" name="gender" value="Male" />
+          <label for="male">Male</label>
+
+          <input type="radio" id="female" name="gender" value="Female" />
+          <label for="female">Female</label>
+
+          <input type="radio" id="other" name="gender" value="Other" />
+          <label for="other">Other</label>
+        </div>
+      </div>
+
+      <div>
+        <hr />
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>

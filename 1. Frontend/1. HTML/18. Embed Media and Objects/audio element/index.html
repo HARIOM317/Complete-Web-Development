@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Embedding audio file</title>
+  </head>
+  <body>
+    <h1>Play the audio file</h1>
+
+    <audio controls autoplay muted>
+      <!-- Play this if valid src and supported by browser -->
+      <source src="../assets/audio2.mp3" type="audio/ogg" />
+
+      <!-- Otherwise play this if valid and supported by browser -->
+      <source src="../assets/audio.mp3" type="audio/mpeg" />
+
+      <!-- It is displayed if the user's browser doesn't support the HTML5 <audio> element, ensuring that the user sees a message instead of a blank space -->
+      Your browser does not support the audio element.
+    </audio>
+  </body>
+</html>

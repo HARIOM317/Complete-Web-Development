@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Range input element</title>
+  </head>
+  <body>
+    <form action="server">
+      <label for="salary">What is your salary</label>
+      <input
+        type="range"
+        name="salary"
+        id="salary"
+        min="0"
+        max="1000000"
+        step="100000"
+        value="200000"
+      />
+
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

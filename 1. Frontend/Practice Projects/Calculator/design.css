@@ -1,0 +1,98 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc {
+  width: 300px;
+  height: 550px;
+  /* background color using background-image property*/
+  background-image: linear-gradient(white, wheat);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -10px -5px 40px 0px rgb(0 0 0/40%);
+}
+
+.calc-body {
+  width: 97%;
+  height: 97%;
+  background: #383838;
+  border-radius: 15px;
+}
+
+.calc .calc-body .calc-notch {
+  width: 40%;
+  height: 10px;
+  background-color: white;
+  border-radius: 15px;
+  margin-left: 90px;
+  margin-top: -6px;
+}
+
+.calc .calc-body .calc-display {
+  width: 100%;
+  height: 25%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.calc .calc-body .calc-display input {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  text-align: end;
+  color: white;
+}
+
+.calc .calc-body .calc-buttons {
+  height: 65%;
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 1.6rem 0.5rem;
+}
+
+::placeholder {
+  color: white;
+}
+
+.calc .calc-body .calc-buttons .btn {
+  width: 3.5rem;
+  height: 3.5rem;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  margin-left: 8px;
+  margin-bottom: 16px;
+  background-color: rgb(0, 0, 0, 0.2);
+  font-family: sans-serif;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.calc .calc-body .calc-buttons .btn:hover {
+  background-color: rgb(0, 0, 0, 0.3);
+}
+
+.calc .calc-body .calc-buttons #hoverEffect {
+  background-color: goldenrod;
+}
+
+.calc .calc-body .calc-buttons #hoverEffect:hover {
+  background-color: #a67e18;
+}

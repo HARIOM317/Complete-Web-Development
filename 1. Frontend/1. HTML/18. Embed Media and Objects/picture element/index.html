@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Picture Element</title>
+  </head>
+
+  <body>
+    <h2>Show different images for different screen sizes</h2>
+
+    <!-- Show different images for different screen sizes: 
+
+    Use cases - 
+        1. Large screens get a high-resolution image.
+        2. Medium screens get a medium-sized image.
+        3. Small screens (default <img> tag) get a smaller image to save bandwidth.
+    -->
+
+    <picture>
+      <!-- Source for larger screens (min-width: 800px) -->
+      <source
+        srcset="
+          https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1280&q=80
+        "
+        media="(min-width: 800px)"
+      />
+
+      <!-- Source for medium screens (min-width: 500px) -->
+      <source
+        srcset="
+          https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1280&q=80
+        "
+        media="(min-width: 500px)"
+      />
+
+      <!-- Default image for all other screens -->
+      <img
+        src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1280&q=80"
+        alt="A beautiful scenery"
+      />
+    </picture>
+  </body>
+</html>

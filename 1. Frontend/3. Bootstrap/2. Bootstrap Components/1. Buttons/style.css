@@ -1,0 +1,11 @@
+/* Overriding bootstrap class style */
+
+.btn-primary {
+  background-color: blueviolet;
+  border-color: blueviolet;
+}
+
+.btn-primary:hover {
+  background-color: #6a21af;
+  border-color: #6a21af;
+}

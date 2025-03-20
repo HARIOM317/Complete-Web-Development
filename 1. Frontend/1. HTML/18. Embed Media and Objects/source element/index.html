@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Embed Media Using Source Element</title>
+  </head>
+  <body>
+    <h2>Video Example</h2>
+    <video controls width="600">
+      <!-- MP4 format is used by most browsers -->
+      <source
+        src="https://www.w3schools.com/html/mov_bbb.mp4"
+        type="video/mp4"
+      />
+      <!-- WebM format as an alternative -->
+      <source
+        src="https://www.w3schools.com/html/mov_bbb.webm"
+        type="video/webm"
+      />
+
+      <!-- It is displayed if the user's browser doesn't support the HTML5 <video> element, ensuring that the user sees a message instead of a blank space -->
+      Your browser does not support the video tag.
+    </video>
+
+    <h2>Audio Example</h2>
+    <audio controls>
+      <!-- MP3 format is widely supported -->
+      <source
+        src="https://www.w3schools.com/html/horse.mp3"
+        type="audio/mpeg"
+      />
+      <!-- OGG format as a fallback -->
+      <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg" />
+
+      <!-- It is displayed if the user's browser doesn't support the HTML5 <audio> element, ensuring that the user sees a message instead of a blank space -->
+      Your browser does not support the audio element.
+    </audio>
+  </body>
+</html>
