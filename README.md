@@ -164,9 +164,7 @@ We welcome contributions from developers at all levels. To contribute:
     ```bash
     git push origin feature/YourFeatureName
     ```
-7. **Open a Pull Request**: Provide a clear description of your modifications. Please review our [Pull Request Template](CONTRIBUTING.md) for further details.
-
-Additionally, please review our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.
+7. **Open a Pull Request**: Provide a clear description of your modifications.
 
 ---
 
