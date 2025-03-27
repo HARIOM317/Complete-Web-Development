@@ -10,16 +10,16 @@ Welcome to the **Complete Full Stack Web Development Mastery** repository – yo
 ---
 
 ## 📑 Table of Contents
-- [🚀 Overview](🚀#overview)
-- [📂 Repository Structure](📂#repository-structure)
-- [✨ Features](✨#features)
-- [🛠️ Prerequisites](🛠️#prerequisites)
-- [💻 Installation & Usage](💻#installation--usage)
-- [📁 Projects](📁#projects)
-- [🤝 Contribution Guidelines](🤝#contribution-guidelines)
-- [📄 License](📄#license)
-- [📞 Contact](📞#contact)
-- [🙏 Acknowledgements](🙏#acknowledgements)
+- [🚀 Overview](#-overview)
+- [📂 Repository Structure](#-repository-structure)
+- [✨ Features](#-features)
+- [🛠️ Prerequisites](#-prerequisites)
+- [💻 Installation & Usage](#-installation--usage)
+- [📁 Projects](#-projects)
+- [🤝 Contribution Guidelines](#-contribution-guidelines)
+- [📄 License](#-license)
+- [📞 Contact](#-contact)
+- [🙏 Acknowledgements](#-acknowledgements)
 
 ---
 
@@ -75,7 +75,7 @@ Complete Full Stack Web Development Mastery/
 
 ---
 
-## 🛠️ Prerequisites
+## 🛠 Prerequisites
 
 Before getting started, ensure you have the following installed:
 
