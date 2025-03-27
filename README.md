@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/HARIOM317/Complete-Web-Development)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)](CONTRIBUTING.md)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)](README.md)
 [![GitHub Stars](https://img.shields.io/github/stars/HARIOM317/Complete-Web-Development.svg?style=social)](https://github.com/yourusername/yourrepository/stargazers)
 
 Welcome to the **Complete Full Stack Web Development Mastery** repository – your definitive resource for mastering full stack development through structured topics, hands-on practice, and real-world projects.
